@@ -1,0 +1,83 @@
+
+
+@color_cabecera: #FF0000;
+@color_borde: #FF4040;
+@color_texto: #FFFFFF;
+@color_fondo: #FF7373;
+
+.borde_negro{
+
+  border-style: solid;
+  border-color: #000000;
+}
+
+#header {
+  background-color: @color_cabecera;
+  color: @color_texto;
+  height: 100px;
+  border-radius: 20px;
+  .borde_negro; 
+
+}
+
+#menu {
+
+	margin-top: 20px;
+	padding: 20px 30px 20px 20px; 
+	//height: 400px;
+	//border-radius: 20px;
+
+}
+
+#icon {
+	color: green;
+	background-image: url('../img/dice/icon_10654.svg');
+	height:100px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#cuerpo{
+
+	//background-color: @color_fondo;
+	margin-top: 20px;
+	margin-left: 20px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 30px;
+
+}
+
+#personaje{
+
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	border-radius: 20px;
+}
+
+#paginador{
+
+	text-align: right;
+}
+
+.panel-primary {
+border-color: green;
+}
+
+#texto{
+
+	text-align: right;
+	color: green;
+
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #ffffff;
+  background-color: @color_borde;
+
+}
+
+

@@ -1,0 +1,10 @@
+.borde_negro{border-style:solid;border-color:#000000;}
+#header{background-color:#ff0000;color:#ffffff;height:100px;border-radius:20px;border-style:solid;border-color:#000000;}
+#menu{margin-top:20px;padding:20px 30px 20px 20px;}
+#icon{color:green;background-image:url('../img/dice/icon_10654.svg');height:100px;background-repeat:no-repeat;background-position:center;}
+#cuerpo{margin-top:20px;margin-left:20px;padding-top:20px;padding-left:20px;padding-bottom:30px;}
+#personaje{padding-top:20px;padding-left:20px;padding-bottom:20px;border-radius:20px;}
+#paginador{text-align:right;}
+.panel-primary{border-color:green;}
+#texto{text-align:right;color:green;}
+.nav-pills>li.active>a,.nav-pills>li.active>a:hover,.nav-pills>li.active>a:focus{color:#ffffff;background-color:#ff4040;}
